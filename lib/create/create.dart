@@ -7,12 +7,11 @@ class CreateScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Create New Post'),
+        title: const Text('Create New Post'),
       ),
-      body: Center(
+      body: const Center(
         child: Text('Create New Post'),
       ),
-    );
     );
   }
 }

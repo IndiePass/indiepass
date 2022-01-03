@@ -7,9 +7,9 @@ class FeedsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Feeds'),
+        title: const Text('Feeds'),
       ),
-      body: Center(
+      body: const Center(
         child: Text('Feeds'),
       ),
     );

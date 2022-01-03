@@ -7,9 +7,9 @@ class DraftsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Drafts'),
+        title: const Text('Drafts'),
       ),
-      body: Center(
+      body: const Center(
         child: Text('Drafts'),
       ),
     );

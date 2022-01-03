@@ -7,9 +7,9 @@ class NewAccountScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Add Account'),
+        title: const Text('Add Account'),
       ),
-      body: Center(
+      body: const Center(
         child: Text('Add Account'),
       ),
     );
