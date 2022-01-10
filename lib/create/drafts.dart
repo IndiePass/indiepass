@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:indiepass/shared/bottom_nav.dart';
 
 class DraftsScreen extends StatelessWidget {
   const DraftsScreen({Key? key}) : super(key: key);
@@ -12,6 +13,7 @@ class DraftsScreen extends StatelessWidget {
       body: const Center(
         child: Text('Drafts'),
       ),
+      bottomNavigationBar: const BottomNavBar(),
     );
   }
 }

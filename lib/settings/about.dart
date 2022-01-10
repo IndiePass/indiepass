@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:indiepass/shared/bottom_nav.dart';
 
 class AboutScreen extends StatelessWidget {
   const AboutScreen({Key? key}) : super(key: key);
@@ -10,6 +11,7 @@ class AboutScreen extends StatelessWidget {
       body: const Center(
         child: Text('About this app...'),
       ),
+      bottomNavigationBar: const BottomNavBar(),
     );
   }
 }

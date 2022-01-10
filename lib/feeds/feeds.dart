@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:indiepass/shared/bottom_nav.dart';
 
 class FeedsScreen extends StatelessWidget {
   const FeedsScreen({Key? key}) : super(key: key);
@@ -12,6 +13,7 @@ class FeedsScreen extends StatelessWidget {
       body: const Center(
         child: Text('Feeds'),
       ),
+      bottomNavigationBar: const BottomNavBar(),
     );
   }
 }

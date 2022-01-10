@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:indiepass/shared/bottom_nav.dart';
 
 class ListenScreen extends StatelessWidget {
   const ListenScreen({Key? key}) : super(key: key);
@@ -12,6 +13,7 @@ class ListenScreen extends StatelessWidget {
       body: const Center(
         child: Text('Create Listen'),
       ),
+      bottomNavigationBar: const BottomNavBar(),
     );
   }
 }

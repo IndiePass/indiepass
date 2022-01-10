@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:indiepass/shared/bottom_nav.dart';
 
 class LikeScreen extends StatelessWidget {
   const LikeScreen({Key? key}) : super(key: key);
@@ -12,6 +13,7 @@ class LikeScreen extends StatelessWidget {
       body: const Center(
         child: Text('Create Like'),
       ),
+      bottomNavigationBar: const BottomNavBar(),
     );
   }
 }

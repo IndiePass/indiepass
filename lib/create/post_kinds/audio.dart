@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:indiepass/shared/bottom_nav.dart';
 
 class AudioScreen extends StatelessWidget {
   const AudioScreen({Key? key}) : super(key: key);
@@ -12,6 +13,7 @@ class AudioScreen extends StatelessWidget {
       body: const Center(
         child: Text('Create Audio'),
       ),
+      bottomNavigationBar: const BottomNavBar(),
     );
   }
 }

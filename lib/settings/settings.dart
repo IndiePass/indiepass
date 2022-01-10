@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:indiepass/shared/bottom_nav.dart';
 
 class SettingsScreen extends StatelessWidget {
   const SettingsScreen({Key? key}) : super(key: key);
@@ -12,6 +13,7 @@ class SettingsScreen extends StatelessWidget {
       body: const Center(
         child: Text('Settings'),
       ),
+      bottomNavigationBar: const BottomNavBar(),
     );
   }
 }

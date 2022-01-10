@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:indiepass/shared/bottom_nav.dart';
 
 class JamScreen extends StatelessWidget {
   const JamScreen({Key? key}) : super(key: key);
@@ -12,6 +13,7 @@ class JamScreen extends StatelessWidget {
       body: const Center(
         child: Text('Create Jam'),
       ),
+      bottomNavigationBar: const BottomNavBar(),
     );
   }
 }

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:indiepass/shared/bottom_nav.dart';
 
 class FavoriteScreen extends StatelessWidget {
   const FavoriteScreen({Key? key}) : super(key: key);
@@ -12,6 +13,7 @@ class FavoriteScreen extends StatelessWidget {
       body: const Center(
         child: Text('Create Favorite'),
       ),
+      bottomNavigationBar: const BottomNavBar(),
     );
   }
 }

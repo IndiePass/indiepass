@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:indiepass/shared/bottom_nav.dart';
 
 class RepostScreen extends StatelessWidget {
   const RepostScreen({Key? key}) : super(key: key);
@@ -12,6 +13,7 @@ class RepostScreen extends StatelessWidget {
       body: const Center(
         child: Text('Create Repost'),
       ),
+      bottomNavigationBar: const BottomNavBar(),
     );
   }
 }

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:indiepass/shared/bottom_nav.dart';
 
 class DrinkScreen extends StatelessWidget {
   const DrinkScreen({Key? key}) : super(key: key);
@@ -12,6 +13,7 @@ class DrinkScreen extends StatelessWidget {
       body: const Center(
         child: Text('Create Drink'),
       ),
+      bottomNavigationBar: const BottomNavBar(),
     );
   }
 }

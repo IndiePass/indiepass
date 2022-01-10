@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:indiepass/shared/bottom_nav.dart';
 
 class CheckinScreen extends StatelessWidget {
   const CheckinScreen({Key? key}) : super(key: key);
@@ -12,6 +13,7 @@ class CheckinScreen extends StatelessWidget {
       body: const Center(
         child: Text('Create Checkin'),
       ),
+      bottomNavigationBar: const BottomNavBar(),
     );
   }
 }

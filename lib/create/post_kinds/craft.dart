@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:indiepass/shared/bottom_nav.dart';
 
 class CraftScreen extends StatelessWidget {
   const CraftScreen({Key? key}) : super(key: key);
@@ -12,6 +13,7 @@ class CraftScreen extends StatelessWidget {
       body: const Center(
         child: Text('Create Craft'),
       ),
+      bottomNavigationBar: const BottomNavBar(),
     );
   }
 }

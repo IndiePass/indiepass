@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:indiepass/routes.dart';
+import 'package:indiepass/theme.dart';
 
 void main() => runApp(const MyApp());
 
@@ -8,11 +10,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        home: Scaffold(
-      appBar: AppBar(title: const Text('Indie Pass')),
-      body: const Center(
-        child: Text('Hello World'),
-      ),
-    ));
+      routes: appRoutes,
+      theme: appTheme,
+    );
   }
 }

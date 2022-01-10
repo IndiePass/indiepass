@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:indiepass/shared/bottom_nav.dart';
 
 class UploadScreen extends StatelessWidget {
   const UploadScreen({Key? key}) : super(key: key);
@@ -12,6 +13,7 @@ class UploadScreen extends StatelessWidget {
       body: const Center(
         child: Text('Upload'),
       ),
+      bottomNavigationBar: const BottomNavBar(),
     );
   }
 }

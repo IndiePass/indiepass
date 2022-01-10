@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:indiepass/shared/bottom_nav.dart';
 
 class WatchScreen extends StatelessWidget {
   const WatchScreen({Key? key}) : super(key: key);
@@ -12,6 +13,7 @@ class WatchScreen extends StatelessWidget {
       body: const Center(
         child: Text('Create Watch'),
       ),
+      bottomNavigationBar: const BottomNavBar(),
     );
   }
 }

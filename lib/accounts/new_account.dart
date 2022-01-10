@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:indiepass/shared/bottom_nav.dart';
 
 class NewAccountScreen extends StatelessWidget {
   const NewAccountScreen({Key? key}) : super(key: key);
@@ -12,6 +13,7 @@ class NewAccountScreen extends StatelessWidget {
       body: const Center(
         child: Text('Add Account'),
       ),
+      bottomNavigationBar: const BottomNavBar(),
     );
   }
 }

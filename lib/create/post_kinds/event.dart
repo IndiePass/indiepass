@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:indiepass/shared/bottom_nav.dart';
 
 class EventScreen extends StatelessWidget {
   const EventScreen({Key? key}) : super(key: key);
@@ -12,6 +13,7 @@ class EventScreen extends StatelessWidget {
       body: const Center(
         child: Text('Create Event'),
       ),
+      bottomNavigationBar: const BottomNavBar(),
     );
   }
 }
