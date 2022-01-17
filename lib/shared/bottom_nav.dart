@@ -40,7 +40,7 @@ class BottomNavBar extends StatelessWidget {
 
             break;
           case 2:
-            Navigator.pushNamed(context, '/accounts');
+            Navigator.pushNamed(context, '/settings');
             break;
         }
       },
