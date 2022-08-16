@@ -15,6 +15,7 @@ import 'package:indiepass/create/post_kinds/favorite.dart';
 import 'package:indiepass/create/post_kinds/issue.dart';
 import 'package:indiepass/create/post_kinds/jam.dart';
 import 'package:indiepass/create/post_kinds/listen.dart';
+import 'package:indiepass/create/post_kinds/note.dart';
 import 'package:indiepass/create/post_kinds/photo.dart';
 import 'package:indiepass/create/post_kinds/play.dart';
 import 'package:indiepass/create/post_kinds/quote.dart';
@@ -46,6 +47,7 @@ var appRoutes = {
   '/create/issue': (context) => const IssueScreen(),
   '/create/jam': (context) => const JamScreen(),
   '/create/listen': (context) => const ListenScreen(),
+  '/create/note': (context) => const NoteScreen(),
   '/create/photo': (context) => const PhotoScreen(),
   '/create/play': (context) => const PlayScreen(),
   '/create/quote': (context) => const QuoteScreen(),

@@ -24,7 +24,7 @@ class BottomNavBar extends StatelessWidget {
         ),
         BottomNavigationBarItem(
           icon: Icon(
-            FontAwesomeIcons.cog,
+            FontAwesomeIcons.gear,
             size: 20,
           ),
           label: 'Settings',

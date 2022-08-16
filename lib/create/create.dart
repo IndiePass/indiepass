@@ -17,7 +17,7 @@ class CreateScreen extends StatelessWidget {
             title: const Text('Note'),
             leading: const Icon(FontAwesomeIcons.pen),
             subtitle: const Text('A short, quick post'),
-            onTap: () => Navigator.pushNamed(context, '/create/article'),
+            onTap: () => Navigator.pushNamed(context, '/create/note'),
           ),
           ListTile(
             title: const Text('Article'),
@@ -27,7 +27,7 @@ class CreateScreen extends StatelessWidget {
           ),
           ListTile(
             title: const Text('Audio'),
-            leading: const Icon(FontAwesomeIcons.volumeUp),
+            leading: const Icon(FontAwesomeIcons.volumeHigh),
             subtitle: const Text('Post an audio file'),
             onTap: () => Navigator.pushNamed(context, '/create/audio'),
           ),
@@ -39,19 +39,19 @@ class CreateScreen extends StatelessWidget {
           ),
           ListTile(
             title: const Text('Check-in'),
-            leading: const Icon(FontAwesomeIcons.mapMarkedAlt),
+            leading: const Icon(FontAwesomeIcons.mapLocation),
             subtitle: const Text('Share your current location'),
             onTap: () => Navigator.pushNamed(context, '/create/checkin'),
           ),
           ListTile(
             title: const Text('Craft'),
-            leading: const Icon(FontAwesomeIcons.tools),
+            leading: const Icon(FontAwesomeIcons.screwdriverWrench),
             subtitle: const Text('Post about building/making something'),
             onTap: () => Navigator.pushNamed(context, '/create/craft'),
           ),
           ListTile(
             title: const Text('Drink'),
-            leading: const Icon(FontAwesomeIcons.coffee),
+            leading: const Icon(FontAwesomeIcons.mugSaucer),
             subtitle: const Text('Post about trea, coffee etc.'),
             onTap: () => Navigator.pushNamed(context, '/create/drink'),
           ),
@@ -81,7 +81,7 @@ class CreateScreen extends StatelessWidget {
           ),
           ListTile(
             title: const Text('Issue'),
-            leading: const Icon(FontAwesomeIcons.exclamationCircle),
+            leading: const Icon(FontAwesomeIcons.circleExclamation),
             subtitle: const Text('Post about a problem'),
             onTap: () => Navigator.pushNamed(context, '/create/issue'),
           ),
