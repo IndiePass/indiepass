@@ -8,12 +8,12 @@ class CheckinScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Create Checkin'),
+        title: const Text('Checkin'),
       ),
       body: const Center(
-        child: Text('Create Checkin'),
+        child: Text('Checkin'),
       ),
-      bottomNavigationBar: const BottomNavBar(),
+      bottomNavigationBar: const BottomNav(),
     );
   }
 }

@@ -14,20 +14,30 @@ import 'package:indiepass/create/post_kinds/exercise.dart';
 import 'package:indiepass/create/post_kinds/favorite.dart';
 import 'package:indiepass/create/post_kinds/issue.dart';
 import 'package:indiepass/create/post_kinds/jam.dart';
+import 'package:indiepass/create/post_kinds/like.dart';
 import 'package:indiepass/create/post_kinds/listen.dart';
 import 'package:indiepass/create/post_kinds/note.dart';
 import 'package:indiepass/create/post_kinds/photo.dart';
 import 'package:indiepass/create/post_kinds/play.dart';
 import 'package:indiepass/create/post_kinds/quote.dart';
 import 'package:indiepass/create/post_kinds/read.dart';
+import 'package:indiepass/create/post_kinds/reply.dart';
 import 'package:indiepass/create/post_kinds/repost.dart';
 import 'package:indiepass/create/post_kinds/review.dart';
 import 'package:indiepass/create/post_kinds/rsvp.dart';
 import 'package:indiepass/create/post_kinds/video.dart';
 import 'package:indiepass/create/post_kinds/watch.dart';
-import 'package:indiepass/accounts/accounts.dart';
 import 'package:indiepass/settings/settings.dart';
 import 'package:indiepass/settings/about.dart';
+import 'package:indiepass/settings/credits.dart';
+import 'package:indiepass/settings/developer.dart';
+import 'package:indiepass/settings/feeds.dart';
+import 'package:indiepass/settings/media.dart';
+import 'package:indiepass/settings/posting.dart';
+import 'package:indiepass/settings/sharing.dart';
+import 'package:indiepass/settings/accounts/accounts.dart';
+import 'package:indiepass/settings/accounts/add_account.dart';
+
 
 var appRoutes = {
   '/': (context) => const FeedsScreen(),
@@ -46,18 +56,27 @@ var appRoutes = {
   '/create/favorite': (context) => const FavoriteScreen(),
   '/create/issue': (context) => const IssueScreen(),
   '/create/jam': (context) => const JamScreen(),
+  '/create/like': (context) => const LikeScreen(),
   '/create/listen': (context) => const ListenScreen(),
   '/create/note': (context) => const NoteScreen(),
   '/create/photo': (context) => const PhotoScreen(),
   '/create/play': (context) => const PlayScreen(),
   '/create/quote': (context) => const QuoteScreen(),
   '/create/read': (context) => const ReadScreen(),
+  '/create/reply': (context) => const ReplyScreen(),
   '/create/repost': (context) => const RepostScreen(),
   '/create/review': (context) => const ReviewScreen(),
   '/create/rsvp': (context) => const RsvpScreen(),
   '/create/video': (context) => const VideoScreen(),
   '/create/watch': (context) => const WatchScreen(),
-  '/accounts': (context) => const AccountsScreen(),
   '/settings': (context) => const SettingsScreen(),
-  '/about': (context) => const AboutScreen(),
+  '/settings/accounts': (context) => const SettingsAccountScreen(),
+  '/settings/accounts/add': (context) => const SettingsAddAccountScreen(),
+  '/settings/about': (context) => const SettingsAboutScreen(),
+  '/settings/credits': (context) => const SettingsCreditsScreen(),
+  '/settings/developer': (context) => const SettingsDeveloperScreen(),
+  '/settings/feeds': (context) => const SettingsFeedsScreen(),
+  '/settings/media': (context) => const SettingsMediaScreen(),
+  '/settings/posting': (context) => const SettingsPostingScreen(),
+  '/settings/sharing': (context) => const SettingsSharingScreen(),
 };

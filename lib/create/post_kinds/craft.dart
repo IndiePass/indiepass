@@ -8,12 +8,12 @@ class CraftScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Create Craft'),
+        title: const Text('Craft'),
       ),
       body: const Center(
-        child: Text('Create Craft'),
+        child: Text('Craft'),
       ),
-      bottomNavigationBar: const BottomNavBar(),
+      bottomNavigationBar: const BottomNav(),
     );
   }
 }

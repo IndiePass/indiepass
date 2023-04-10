@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:indiepass/shared/bottom_nav.dart';
 
-class NewAccountScreen extends StatelessWidget {
-  const NewAccountScreen({Key? key}) : super(key: key);
+class SettingsCreditsScreen extends StatelessWidget {
+  const SettingsCreditsScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Add Account'),
+        title: const Text('Credits'),
       ),
       body: const Center(
-        child: Text('Add Account'),
+        child: Text('Credits'),
       ),
-      bottomNavigationBar: const BottomNavBar(),
+      bottomNavigationBar: const BottomNav(),
     );
   }
 }

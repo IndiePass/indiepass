@@ -8,12 +8,12 @@ class WatchScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Create Watch'),
+        title: const Text('Watch'),
       ),
       body: const Center(
-        child: Text('Create Watch'),
+        child: Text('Watch'),
       ),
-      bottomNavigationBar: const BottomNavBar(),
+      bottomNavigationBar: const BottomNav(),
     );
   }
 }

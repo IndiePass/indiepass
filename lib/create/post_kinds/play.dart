@@ -8,12 +8,12 @@ class PlayScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Create Play'),
+        title: const Text('Play'),
       ),
       body: const Center(
-        child: Text('Create Play'),
+        child: Text('Play'),
       ),
-      bottomNavigationBar: const BottomNavBar(),
+      bottomNavigationBar: const BottomNav(),
     );
   }
 }

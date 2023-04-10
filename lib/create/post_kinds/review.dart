@@ -8,12 +8,12 @@ class ReviewScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Create Review'),
+        title: const Text('Review'),
       ),
       body: const Center(
-        child: Text('Create Review'),
+        child: Text('Review'),
       ),
-      bottomNavigationBar: const BottomNavBar(),
+      bottomNavigationBar: const BottomNav(),
     );
   }
 }

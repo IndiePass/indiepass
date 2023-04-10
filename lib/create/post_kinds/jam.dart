@@ -8,12 +8,12 @@ class JamScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Create Jam'),
+        title: const Text('Jam'),
       ),
       body: const Center(
-        child: Text('Create Jam'),
+        child: Text('Jam'),
       ),
-      bottomNavigationBar: const BottomNavBar(),
+      bottomNavigationBar: const BottomNav(),
     );
   }
 }

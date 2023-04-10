@@ -8,12 +8,12 @@ class ExerciseScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Create Exercise'),
+        title: const Text('Exercise'),
       ),
       body: const Center(
-        child: Text('Create Exercise'),
+        child: Text('Exercise'),
       ),
-      bottomNavigationBar: const BottomNavBar(),
+      bottomNavigationBar: const BottomNav(),
     );
   }
 }

@@ -8,12 +8,12 @@ class QuoteScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Create Quote'),
+        title: const Text('Quote'),
       ),
       body: const Center(
-        child: Text('Create Quote'),
+        child: Text('Quote'),
       ),
-      bottomNavigationBar: const BottomNavBar(),
+      bottomNavigationBar: const BottomNav(),
     );
   }
 }

@@ -8,12 +8,12 @@ class DrinkScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Create Drink'),
+        title: const Text('Drink'),
       ),
       body: const Center(
-        child: Text('Create Drink'),
+        child: Text('Drink'),
       ),
-      bottomNavigationBar: const BottomNavBar(),
+      bottomNavigationBar: const BottomNav(),
     );
   }
 }

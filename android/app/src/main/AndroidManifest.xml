@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.indiepass">
+    package="dev.marksuth.indiepass">
    <application
         android:label="indiepass"
         android:name="${applicationName}"

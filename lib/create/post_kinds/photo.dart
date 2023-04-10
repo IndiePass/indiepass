@@ -8,12 +8,12 @@ class PhotoScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Create Photo'),
+        title: const Text('Photo'),
       ),
       body: const Center(
-        child: Text('Create Photo'),
+        child: Text('Photo'),
       ),
-      bottomNavigationBar: const BottomNavBar(),
+      bottomNavigationBar: const BottomNav(),
     );
   }
 }

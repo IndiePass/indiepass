@@ -13,7 +13,7 @@ class DraftsScreen extends StatelessWidget {
       body: const Center(
         child: Text('Drafts'),
       ),
-      bottomNavigationBar: const BottomNavBar(),
+      bottomNavigationBar: const BottomNav(),
     );
   }
 }

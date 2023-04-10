@@ -8,12 +8,12 @@ class ListenScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Create Listen'),
+        title: const Text('Listen'),
       ),
       body: const Center(
-        child: Text('Create Listen'),
+        child: Text('Listen'),
       ),
-      bottomNavigationBar: const BottomNavBar(),
+      bottomNavigationBar: const BottomNav(),
     );
   }
 }

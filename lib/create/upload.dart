@@ -13,7 +13,7 @@ class UploadScreen extends StatelessWidget {
       body: const Center(
         child: Text('Upload'),
       ),
-      bottomNavigationBar: const BottomNavBar(),
+      bottomNavigationBar: const BottomNav(),
     );
   }
 }

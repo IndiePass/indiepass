@@ -8,12 +8,12 @@ class AudioScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Create Audio'),
+        title: const Text('Audio'),
       ),
       body: const Center(
-        child: Text('Create Audio'),
+        child: Text('Audio'),
       ),
-      bottomNavigationBar: const BottomNavBar(),
+      bottomNavigationBar: const BottomNav(),
     );
   }
 }

@@ -10,32 +10,30 @@ class FeedsScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Feeds'),
       ),
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        crossAxisAlignment: CrossAxisAlignment.stretch,
-        children: [
-          const Text(
-            'It\'s looking pretty empty here!',
-            textAlign: TextAlign.center,
-            style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-          ),
-          const Padding(
-            padding: EdgeInsets.only(top: 20.0),
-          ),
-          const Text(
-            'To add an account or endpoint, go to the settings page.',
-            textAlign: TextAlign.center,
-          ),
-          const Padding(
-            padding: EdgeInsets.only(top: 20.0),
-          ),
-          ElevatedButton(
-            onPressed: () => Navigator.pushNamed(context, '/accounts'),
-            child: const Text('Add Account'),
-          ),
-        ],
+      body: Center(
+        child:Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            const Padding(
+              padding: EdgeInsets.fromLTRB(10.0, 10.0, 10.0, 50.0),
+              child: Text('It\'s looking pretty empty in here...',  style: TextStyle(fontSize: 20)),
+            ),
+        SizedBox(
+          height: 50,
+          width: 250,
+          child: ElevatedButton(
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Colors.red,
+                foregroundColor: Colors.white,
+              ),
+              onPressed: () {},
+              child: const Text('Add an account', style: TextStyle(fontSize: 20)),
+            ),
+        ),
+          ],
+        ),
       ),
-      bottomNavigationBar: const BottomNavBar(),
+      bottomNavigationBar: const BottomNav(),
     );
   }
 }

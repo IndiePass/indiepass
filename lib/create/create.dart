@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:indiepass/shared/bottom_nav.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class CreateScreen extends StatelessWidget {
   const CreateScreen({Key? key}) : super(key: key);
@@ -164,7 +164,7 @@ class CreateScreen extends StatelessWidget {
           ),
         ],
       ),
-      bottomNavigationBar: const BottomNavBar(),
+      bottomNavigationBar: const BottomNav(),
     );
   }
 }
