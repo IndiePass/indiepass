@@ -30,7 +30,6 @@ import 'package:indiepass/create/post_kinds/watch.dart';
 import 'package:indiepass/settings/settings.dart';
 import 'package:indiepass/settings/about.dart';
 import 'package:indiepass/settings/credits.dart';
-import 'package:indiepass/settings/developer.dart';
 import 'package:indiepass/settings/feeds.dart';
 import 'package:indiepass/settings/media.dart';
 import 'package:indiepass/settings/posting.dart';
@@ -74,7 +73,6 @@ var appRoutes = {
   '/settings/accounts/add': (context) => const SettingsAddAccountScreen(),
   '/settings/about': (context) => const SettingsAboutScreen(),
   '/settings/credits': (context) => const SettingsCreditsScreen(),
-  '/settings/developer': (context) => const SettingsDeveloperScreen(),
   '/settings/feeds': (context) => const SettingsFeedsScreen(),
   '/settings/media': (context) => const SettingsMediaScreen(),
   '/settings/posting': (context) => const SettingsPostingScreen(),
